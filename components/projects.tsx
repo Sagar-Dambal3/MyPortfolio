@@ -3,22 +3,22 @@ import Link from "next/link"
 
 export function Projects() {
   const projects = [
-    {
-      title: "Advance IDE",
-      description:
-        "Advance IDE is a comprehensive, web-based integrated development environment (IDE) that allows users to create, edit, and deploy projects. The platform provides isolated environments for each user, supports multiple programming languages, and offers advanced features like auto-scaling, one-click GitHub integration, and long-running backend support.",
-      technologies: [
-        "React.js/Next.js",
-        "Node.js",
-        "Express.js",
-        "AWS",
-        "Docker/Kubernetes",
-        "PostgreSQL",
-        "Socket.io",
-        "Clerk",
-        "CI/CD",
-      ],
-    },
+    // {
+    //   title: "Advance IDE",
+    //   description:
+    //     "Advance IDE is a comprehensive, web-based integrated development environment (IDE) that allows users to create, edit, and deploy projects. The platform provides isolated environments for each user, supports multiple programming languages, and offers advanced features like auto-scaling, one-click GitHub integration, and long-running backend support.",
+    //   technologies: [
+    //     "React.js/Next.js",
+    //     "Node.js",
+    //     "Express.js",
+    //     "AWS",
+    //     "Docker/Kubernetes",
+    //     "PostgreSQL",
+    //     "Socket.io",
+    //     "Clerk",
+    //     "CI/CD",
+    //   ],
+    // },
     {
       title: "AI-Powered Chatbot App",
       description:
@@ -50,11 +50,11 @@ export function Projects() {
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-semibold text-white">{project.title}</h3>
               <div className="flex gap-2">
-                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="#sagar" className="text-gray-400 hover:text-white transition-colors">
                   <Github className="w-5 h-5" />
                   <span className="sr-only">Github</span>
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+                <Link href="#sagar" className="text-gray-400 hover:text-white transition-colors">
                   <ExternalLink className="w-5 h-5" />
                   <span className="sr-only">External Link</span>
                 </Link>
