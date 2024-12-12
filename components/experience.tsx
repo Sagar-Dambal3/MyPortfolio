@@ -9,10 +9,11 @@ export function Experience() {
                 <h3 className="text-xl font-semibold text-white">ITC Infotech</h3>
                 <p className="text-gray-400">Associate IT Consultant | Bengaluru</p>
               </div>
-              <span className="text-gray-400">Aug 2021 - May 2023</span>
+              <span className="text-gray-400">Aug 2021 - Present</span>
             </div>
             <p className="text-gray-400 mb-4">
-            Conducted extensive <b>manual testing</b>, identifying critical defects and ensuring seamless application 
+            Developed and maintained <b>RESTful API's</b> using <b>Spring Boot</b> for a Hotel domain application, designed and 
+            implemented database models and integrated with relational database such as <b>MySQL</b> and also Conducted extensive <b>manual testing</b>, identifying critical defects and ensuring seamless application 
             performance through detailed test case design, <b>regression testing</b>, and collaboration with Agile teams.
             </p>
           </div>
